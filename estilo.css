@@ -1,0 +1,28 @@
+ol{
+    background-color: lightblue;
+    border: 1px solid black;
+    text-align: left;
+    height: 300px;
+    width: 150px;
+    
+}
+
+#lista{
+    text-align: left;
+
+}
+
+div#tat > p{
+    text-align: center;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    display: none;
+}
+div#tat:hover{
+    color: blueviolet;
+}
+div#tat:hover > p{
+    display: block;
+    background-color: blue;
+    color: white;
+}
